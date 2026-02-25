@@ -1,6 +1,6 @@
 values:
-  repo_URL: https://code.europa.eu/simpl/simpl-open/development/agents/governance-authority.git
-  branch: v2.4.1
+  repo_URL: https://github.com/TatuE/so-ga.git
+  branch: main
 
 project: ${PROJECT}
 domainSuffix: ${DOMAINSUFFIX}
@@ -8,8 +8,8 @@ namespaceTag:
   authority: ${AUTHNAMESPACETAG}
   common: ${COMMONSPACETAG}
 
-resourcePreset: default
-# resourcePreset: low
+#resourcePreset: default
+resourcePreset: low
 
 argocd:
   appname: ${NAMESPACE}
